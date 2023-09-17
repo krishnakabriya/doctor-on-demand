@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".ProfileFragment">
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/pfRL"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <com.google.android.material.imageview.ShapeableImageView-->
+    <!--            android:id="@+id/profilepic"-->
+    <!--            android:layout_width="120dp"-->
+    <!--            android:layout_height="120dp"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:background="#666666"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:src="@drawable/ic_baseline_person_24_gray"-->
+    <!--            app:shapeAppearanceOverlay="@style/ImageStyle_Circle"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/labelusername"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Body1"-->
+    <!--            android:layout_below="@id/profilepic"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:text="Name"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/username"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_below="@id/profilepic"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Caption"-->
+    <!--            android:text="Full Name"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/labelemail"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Body1"-->
+    <!--            android:layout_below="@id/labelusername"-->
+    <!--            android:text="Email"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/email"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Caption"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_below="@id/labelusername"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:text="example@example.com"/>-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/labelphonenumber"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Body1"-->
+    <!--            android:layout_below="@id/labelemail"-->
+    <!--            android:text="Phone Number"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/phonenumber"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Caption"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_below="@id/labelemail"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:text="0123456789"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/labeldob"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Body1"-->
+    <!--            android:layout_below="@id/labelphonenumber"-->
+    <!--            android:text="DOB"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/dob"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            style="@style/TextAppearance.MaterialComponents.Caption"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_below="@id/labelphonenumber"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:text="bb/mm/yyyy"/>-->
+
+
+<!--    <ListView-->
+<!--        android:id="@+id/LVtreamets"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <com.google.android.material.card.MaterialCardView-->
+<!--        android:id="@+id/logoutcv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:foreground="?selectableItemBackground"-->
+<!--        app:cardCornerRadius="10dp"-->
+<!--        app:contentPadding="10dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:drawableStart="@drawable/ic_baseline_logout_24"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="Logout" />-->
+<!--    </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:id="@+id/editprofilecv"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_below="@id/logoutcv"-->
+    <!--            android:clickable="true"-->
+    <!--            android:focusable="true"-->
+    <!--            android:foreground="?selectableItemBackground"-->
+    <!--            app:cardCornerRadius="10dp"-->
+    <!--            app:contentPadding="10dp">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:drawableStart="@drawable/ic_baseline_person_24"-->
+    <!--                android:text="Edit Profile"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:drawablePadding="10dp"-->
+    <!--                android:drawableEnd="@drawable/ic_baseline_navigate_next_24"/>-->
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Doctor On Demand</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- %1$s:%2$s will add the string in HH:MM format
+    for more understanding follow the link at the end -->
+    <string name="selected_time_format">%1$s:%2$s</string>
+
+    <!-- >> means >> for more understanding follow
+    the link at the end -->
+    <string name="time_prefix"></string>
+
+    <!-- << means << for more understanding follow
+    the link at the end -->
+    <string name="time_suffix"></string>
+
+</resources>
